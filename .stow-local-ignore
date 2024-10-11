@@ -1,0 +1,8 @@
+# Folders
+/.git
+/tmp
+
+# Files
+/README.md
+/.gitignore
+/LICENSE
