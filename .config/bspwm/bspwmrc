@@ -1,0 +1,42 @@
+#! /bin/sh
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# ██████╗ ███████╗██████╗ ██╗    ██╗███╗   ███╗
+# ██╔══██╗██╔════╝██╔══██╗██║    ██║████╗ ████║
+# ██████╔╝███████╗██████╔╝██║ █╗ ██║██╔████╔██║
+# ██╔══██╗╚════██║██╔═══╝ ██║███╗██║██║╚██╔╝██║
+# ██████╔╝███████║██║     ╚███╔███╔╝██║ ╚═╝ ██║
+# ╚═════╝ ╚══════╝╚═╝      ╚══╝╚══╝ ╚═╝     ╚═╝
+# ━━━━━━━━━━━━ Config by Josterand ━━━━━━━━━━━━
+
+bspc monitor -d 1 2 3 4 5 6 7 8 9 10
+
+bspc config border_width         2
+bspc config window_gap          12
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+# ------------------------------------------------------
+# -             autostart applications                 -
+# ------------------------------------------------------
+
+# Start keybindings daemon
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+# Start polkit
+lxpolkit &
+
+# Restore wallpaper 
+nitrogen --restore &
+
+# Start notification daemon
+dunst --config $HOME/.config/dunst/dunstrc &
+
+# Start screen resolution configurator
+xrandr --output LVDS-1 --mode 1440x900 &
+
+# Start polybar launch script
+$HOME/.config/polybar/launch.sh &
+
