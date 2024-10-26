@@ -25,7 +25,7 @@ super + p
 
 # wifi menu
 super + w 
-	wifimenu
+	bash $HOME/.local/bin/wifimenu
 
 # bspwm hotkeys
 # quit/restart bspwm
