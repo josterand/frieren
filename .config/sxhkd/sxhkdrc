@@ -13,7 +13,7 @@ super + t
 
 # program launcher
 super + @space
-	bash $HOME/.local/bin/app-launcher
+	bash $HOME/.config/bspwm/bin/app-launcher
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -21,11 +21,11 @@ super + Escape
 
 # power menu
 super + p
-	$HOME/.config/rofi/powermenu/powermenu.sh
+	bash $HOME/.config/bspwm/bin/powermenu
 
 # wifi menu
 super + w 
-	bash $HOME/.local/bin/wifimenu
+	bash $HOME/.config/bspwm/bin/wifimenu
 
 # bspwm hotkeys
 # quit/restart bspwm
