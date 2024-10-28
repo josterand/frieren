@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+rofi -no-lazy-grab \
+-disable-history \
+-modi "drun" -show drun \
+-location 1 \
+-font "JetBrainsMonoNerd Font 10" \
+-theme ~/.config/rofi/launcher.rasi \
+-xoffset 0 -yoffset +34 \
