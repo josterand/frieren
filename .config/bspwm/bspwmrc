@@ -1,5 +1,4 @@
 #! /bin/sh
-
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # ██████╗ ███████╗██████╗ ██╗    ██╗███╗   ███╗
 # ██╔══██╗██╔════╝██╔══██╗██║    ██║████╗ ████║
@@ -40,3 +39,5 @@ xrandr --output LVDS-1 --mode 1440x900 &
 # Start polybar launch script
 $HOME/.config/polybar/launch.sh &
 
+# Fix cursor
+xsetroot -cursor_name left_ptr

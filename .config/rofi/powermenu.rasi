@@ -13,8 +13,7 @@ configuration {
 }
 
 /*****----- Global Properties -----*****/
-@import                          "shared/frieren.rasi"
-@import                          "shared/fonts.rasi"
+@import                          "colors.rasi"
 
 /*
 USE_BUTTONS=YES
