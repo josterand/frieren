@@ -1,5 +1,4 @@
 #! /bin/sh
-
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # ██████╗ ███████╗██████╗ ██╗    ██╗███╗   ███╗
 # ██╔══██╗██╔════╝██╔══██╗██║    ██║████╗ ████║
@@ -8,8 +7,6 @@
 # ██████╔╝███████║██║     ╚███╔███╔╝██║ ╚═╝ ██║
 # ╚═════╝ ╚══════╝╚═╝      ╚══╝╚══╝ ╚═╝     ╚═╝
 # ━━━━━━━━━━━━ Config by Josterand ━━━━━━━━━━━━
-
-export PATH="${PATH}:${HOME}/.config/bspwm/bin"
 
 bspc monitor -d 1 2 3 4 5 6 7 8 9 10
 
@@ -42,3 +39,5 @@ xrandr --output LVDS-1 --mode 1440x900 &
 # Start polybar launch script
 $HOME/.config/polybar/launch.sh &
 
+# Fix cursor
+xsetroot -cursor_name left_ptr
