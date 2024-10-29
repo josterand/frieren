@@ -13,9 +13,11 @@
 
 ## Installation
 This repo structure is specially designed to be used easily and painlessly. We will use `GNU Stow` to setup the configs!
+
 <details>
 <summary><b>Click to expand</b></summary>
-Note that sometimes an error will occur due to a .bashrc configuration file that already exists on the system if you are using Bash as the default shell. This repo contains its own default .bashrc file. Please backup or delete the old .bashrc file from the OS before stowing! 
+
+> Note that sometimes an error will occur due to a `.bashrc` configuration file that already exists on the system if you are using Bash as the default shell. This` repo contains its own default `.bashrc` file. Please backup or delete the old `.bashrc` file from the OS before stowing!
 
 #### For Debian-based distros:
 ```bash
