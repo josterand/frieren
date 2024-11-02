@@ -13,3 +13,4 @@ To be able to use these dotfiles, you need to install some necessary packages
 11. xrandr
 12. nmcli
 13. xorg-xsetroot
+14. pamixer
