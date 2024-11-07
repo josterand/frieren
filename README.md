@@ -1,6 +1,8 @@
 <div align="center">
     <img src="https://github.com/josterand.png" width="150"><br>
     <b>【 Josterand's bspwm rice 】</b>
+    <br>
+    <img src="https://github.com/josterand/assets/blob/main/Desktop-Showcase.png">
 </div>
 
 ## System Specifications
