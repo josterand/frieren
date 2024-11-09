@@ -1,6 +1,6 @@
 <div align="center">
   【 Josterand's bspwm rice 】</b>
-  <br>
+  <br><br>
   <img src="https://img.shields.io/github/repo-size/josterand/frieren?color=6E93CC&labelColor=1a1e29&style=for-the-badge">
 </div>
 
