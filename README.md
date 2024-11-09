@@ -26,7 +26,7 @@
 - Notification Daemon: [Dunst](https://github.com/dunst-project/dunst)
 
 ## Install
-The structure of this repo is designed so that it can be easily installed using [GNU Stow](https://www.gnu.org/software/stow/). It's as simple as installing [GNU Stow](https://www.gnu.org/software/stow/), then `git clone` this repo in the top home directory (in your $HOME directory iykwim), `cd` in, stow the configuration with the `stow .` command. 
+The structure of this repo is designed so that it can be easily installed using [GNU Stow](https://www.gnu.org/software/stow/). It's as simple as installing [GNU Stow](https://www.gnu.org/software/stow/), then `git clone` this repo in the top home directory (in your $HOME directory iykwim), `cd` in, and stow the configuration with the `stow .` command. 
 
 I'm assuming you're already pretty good at using basic linux commands like `cd` and `git clone` so I won't teach you (too tired to write an installation guide, LOL).
 
