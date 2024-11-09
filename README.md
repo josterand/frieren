@@ -1,40 +1,19 @@
 <div align="center">
-    <img src="https://github.com/josterand.png" width="150"><br>
-    <b>【 Josterand's bspwm rice 】</b>
+  <b>【 Josterand's bspwm rice 】</b>
+  <br>
+  <img src="https://img.shields.io/github/repo-size/josterand/frieren?color=6E93CC&labelColor=1a1e29&style=for-the-badge">
 </div>
 
-## System Specifications
-- Window Manager: [bspwm](https://github.com/baskerville/bspwm)
-- Keybinding daemon: Sxhkd
-- Notification daemon: Dunst
-- Terminal: Alacritty
-- Shell: bash
-- Bar: Polybar
-
-## Installation
-This repo structure is specially designed to be used easily and painlessly. We will use `GNU Stow` to setup the configs!
-
-<details>
-<summary><b>Click to expand</b></summary>
-
-> Note that sometimes an error will occur due to a `.bashrc` configuration file that already exists on the system if you are using Bash as the default shell. This repo contains its own default `.bashrc` file. Please backup or delete the old `.bashrc` file from the OS before stowing!
-
-#### For Debian-based distros:
-```bash
-sudo apt install git stow
-cd $HOME && git clone --depth=1 https://github.com/josterand/dotfiles.git
-cd dotfiles && stow .
-```
-
-#### For Arch-based distros:
-```bash
-sudo pacman -S git stow
-cd $HOME && git clone --depth=1 https://github.com/josterand/dotfiles.git
-cd dotfiles && stow .
-```
-
-</details>
+## System
+- Operating System: [EndeavourOS Neo](https://endeavouros.com/)
+- Window Manager: [BSPWM](https://github.com/baskerville/bspwm)
+- Keybind Daemon: [sxhkd](https://github.com/baskerville/sxhkd)
+- Shell: [bash](https://www.gnu.org/software/bash/)
+- Terminal: [Alacritty](https://github.com/alacritty/alacritty)
+- Bar: [Polybar](https://github.com/polybar/polybar)
+- Launcher: [Rofi](https://github.com/davatorium/rofi)
+- Notification Daemon: [Dunst](https://github.com/dunst-project/dunst)
 
 ## Fonts & Wallpapers
-Fonts: JetBrains Mono Nerdfont
-Wallpaper: I got this wallpaper from [D3Ext's](https://github.com/D3Ext/) [aesthetic-wallpapers](https://github.com/D3Ext/aesthetic-wallpapers). Thanks to his repo, i don't need to spend hours of my time for diving deep into the web to find a good wallpaper! Check it out there are many good wallpapers for your rice!
+- Fonts: **JetBrainsMonoNerd Font**. Get it from [**here**](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip)
+- Wallpaper: Thanks to [**アマガサ夕**](https://www.pixiv.net/en/users/103396341)'s beautiful [**artwork**](https://www.pixiv.net/en/artworks/116085885) on Pixiv!
